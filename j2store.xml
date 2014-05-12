@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="cck_field" version="2.5" method="upgrade">
+	<name>plg_cck_field_j2store</name>
+	<author>Codigo Aberto</author>
+	<authorEmail>marcio.marques@codigoaberto.pt</authorEmail>
+	<authorUrl>http://www.codigoaberto.pt</authorUrl>
+	<copyright>Copyright (C) 2014 Codigo Aberto - Media Dital. All Rights Reserved.</copyright>
+	<license>GNU General Public License version 2 or later.</license>
+	<creationDate>May 2014</creationDate>
+	<description>J2Store plugin for Seblod 3.x - https://github.com/codigoaberto/seblod_j2store // by Codigo Aberto - www.codigoaberto.pt</description>
+	<version>1.0.0</version>
+	
+	<scriptfile>install/script.php</scriptfile>
+	
+	<files>
+		<folder>assets</folder>
+		<folder>classes</folder>
+		<folder>install</folder>
+		<folder>tmpl</folder>
+		
+		<filename plugin="j2store">j2store.php</filename>
+		<filename>index.html</filename>
+	</files>
+	
+	<languages folder="languages">
+		<language tag="en-GB">en-GB/en-GB.plg_cck_field_j2store.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_cck_field_j2store.sys.ini</language>
+	</languages>
+	
+	<config>
+		<fields name="params" addfieldpath="/libraries/cck/construction/field">
+			<fieldset name="basic">
+				<field name="" type="spacer" hr="false" />
+			</fieldset>
+			
+			<fieldset name="advanced">
+				<field name="group" type="text" default="PLG_CCK_FIELD_GROUP_CCK_ECOMMERCE" label="LIB_CCK_GROUP_LABEL" size="60" description="LIB_CCK_FIELD_GROUP_DESC" />
+				<field name="export" type="cckexport" default="" label="LIB_CCK_EXPORT_LABEL" description="LIB_CCK_FIELD_EXPORT_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
