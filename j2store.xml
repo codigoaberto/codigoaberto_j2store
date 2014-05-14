@@ -7,7 +7,7 @@
 	<copyright>Copyright (C) 2014 Codigo Aberto - Media Dital. All Rights Reserved.</copyright>
 	<license>GNU General Public License version 2 or later.</license>
 	<creationDate>May 2014</creationDate>
-	<description>J2Store plugin for Seblod 3.x - https://github.com/codigoaberto/seblod_j2store // by Codigo Aberto - www.codigoaberto.pt</description>
+	<description>J2Store plugin for Seblod 3.x // by Codigo Aberto - www.codigoaberto.pt</description>
 	<version>1.0.0</version>
 	
 	<scriptfile>install/script.php</scriptfile>
