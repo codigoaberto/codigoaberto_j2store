@@ -52,7 +52,7 @@ class plgCCK_FieldJ2store extends JCckPluginField
 		parent::g_onCCK_FieldPrepareContent( $field, $config );
 		
 		// Set
-		$value	= "{j2storecart ".$config['id']."}";
+		$value	= "{j2storecart ".$config['pk']."}";
 		$field->value	=	$value;
 	}
 	
